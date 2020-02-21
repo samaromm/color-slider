@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Color Slider</title>
+    <link rel="stylesheet" href="./bootstrap.css">
+    <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <header id="top" class="col-md-12">
+                <h1> website header</h1>
+            </header>
+       </div> 
+       <div class="row">
+            <aside id="leftPanel" class="col-md-3 ">
+                <h1> website left panel</h1>
+            </aside>
+                
+            <section class="col-md-9">    
+                <div id="buttons">
+                    <button value="header">
+                    Header
+                    </button>
+                    <button value="aside">
+                    left panel
+                    </button>     
+                    <button value="footer">
+                    footer
+                    </button>
+                </div> 
+                <div id="display">
+                </div>
+                <div id="colorPicker">
+                    red <br><input id="red" type="range" min="0" max="255" step="1" value="0"> <br>
+                    green <br><input id="green" type="range" min="0" max="255" step="1" value="0"> <br> 
+                    blue <br><input id="blue" type="range" min="0" max="255" step="1" value="0"> 
+                </div>
+            </section>
+        </div>  
+        <div class="row">
+            <footer id="f" class="col-md-12">
+                <h1>website footer</h1>
+            </footer>
+       </div>
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

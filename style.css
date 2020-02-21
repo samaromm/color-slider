@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body {
+    font-family: 'Open Sans';
+    overflow-x: hidden;
+}
+
+h1{
+padding:50px;
+vertical-align:middle;
+color:#fff;
+text-shadow: 0 0 4px #000;
+}
+
+header,aside,section,footer{
+background-color:#FEB6D3;
+border-bottom:2px solid black;
+}
+
+aside{
+border-right:2px solid black;
+}
+
+#buttons, #colorPicker{
+font-size:27px;
+padding:30px;
+margin:10px;
+}
+
+button{
+    padding:10px;
+    border-radius: 10px
+}
+
+#display{
+    margin-left:45px;
+    background-color:RGB(0,0,0);
+    width:18%;
+    height:13%;
+}
