@@ -18,7 +18,7 @@ text-shadow: 0 0 4px #000;
 
 header,aside,section,footer{
 background-color:#FEB6D3;
-border-bottom:2px solid black;
+border-bottom:1px solid black;
 }
 
 aside{
@@ -26,15 +26,10 @@ border-right:2px solid black;
 }
 
 #buttons, #colorPicker{
-font-size:27px;
-padding:30px;
-margin:10px;
+font-size:20px;
+padding:10px 0 50px 10px
 }
 
-button{
-    padding:10px;
-    border-radius: 10px
-}
 
 #display{
     margin-left:45px;
